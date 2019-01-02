@@ -10,21 +10,16 @@ export default function LeftBlock() {
 				<div className="content-left-wrapper">
 					<Link to={process.env.PUBLIC_URL + "/"} id="logo">
             <img src={logo} alt="" width="49" height="35" />
-            <h1 className="title title-light">More Just Store</h1>
+            <h1 className="title title-light">Buxtons Upload</h1>
           </Link>
-					<div id="social">
-						<ul>
-							<li><a href="https://github.com/morejust/store" target="blank"><i className="fab fa-github"></i></a></li>
-						</ul>
-					</div>
+					
 					<div>
 						<figure><img src={infoGraphic} alt="" className="img-fluid" /></figure>
-						<h2>Store Files Simple.<br/>Free. Forever</h2>
+						<h2>Share Files with Us<br/>Quickly & Easily</h2>
 						<p>We use public GitHub repositories to store your files for free. You can create your own free unlimited cloud storage even on private repos. </p>
-						<a href="https://github.com/morejust/store/blob/master/README.md" target="blank" className="btn_1 rounded">Start Now!</a>
-            <Link to={process.env.PUBLIC_URL + "docs"} style={{marginLeft: "10px"}} className="btn_1 rounded">Documentation</Link>
+						<a href="https://www.buxtons.net#utm_source=upload-page&utm_medium=upload-page" target="blank" className="btn_1 rounded">Visit our Website!</a>
 					</div>
-					<div className="copy">© 2018 More Just Store v1.2.0</div>
+					<div className="copy">All Rights Reserved. Buxtons.</div>
 				</div>
 			</div>
   );
